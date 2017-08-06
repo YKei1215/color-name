@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>色の名は。</title>
+    <link rel="stylesheet" href="css/normalize.css" charset="utf-8">
+    <link rel="stylesheet" href="css/common.css" charset="utf-8">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- font: http://www.morisawa.co.jp/fonts/specimen/1075 -->
+      <img src="img/color-name.png" alt="色の名は。">
+
+      <div class="form-color">
+        <label class="" for="inputColor">色：</label>
+        <input type="color" id="inputColor" class="input-color" value="#aa0000" />
+        <span id="colorRGB" class="color-rgb"></span>
+        <span id="colorCode" class="color-code"></span>
+        <span id="inputError"></span>
+      </div>
+
+      <div id="nearestColors"></div>
+    </div>
+  </body>
+</html>

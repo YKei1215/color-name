@@ -22,14 +22,17 @@ Promise.all([
   var inputColorNode = document.getElementById('inputColor');
   var showNearestColors = initShowNearestColors(colors);
   showNearestColors();
-  inputColorNode.addEventListener('change', showNearestColors, false);
+  // Nearest colors hould be interactive
+  inputColorNode.addEventListener('change', showNearestColors, false); // Chrome
+  inputColorNode.addEventListener('input', showNearestColors, false); // Firefox
 })
 
 
-// Show nearest colors
+// Init and returns update function.
 // This higher order function takes all color data, and returns update function.
 //
 function initShowNearestColors(colors) {
+  // Show nearest colors
   return function update(event) {
     var inputColor = document.getElementById('inputColor').value;
     if (!validColorCode(inputColor)) {

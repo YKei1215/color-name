@@ -4,7 +4,9 @@
 
 カラーコードから最も近い色の名前を示します。
 
-<img src="img/demo.gif" alt="demo" />
+<a href="https://tex2e.github.io/color-name/index.html">
+  <img src="img/demo.gif" alt="demo" />
+</a>
 
 ## Requirements
 

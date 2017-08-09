@@ -22,9 +22,10 @@ Promise.all([
   var inputColorNode = document.getElementById('inputColor');
   var showNearestColors = initShowNearestColors(colors);
   showNearestColors();
-  // Nearest colors hould be interactive
-  inputColorNode.addEventListener('change', showNearestColors, false); // Chrome
-  inputColorNode.addEventListener('input', showNearestColors, false); // Firefox
+  // input -- when change value
+  // change -- when changes are committed by user
+  inputColorNode.addEventListener('input', showNearestColors, false);
+  inputColorNode.addEventListener('change', showNearestColors, false);
 })
 
 

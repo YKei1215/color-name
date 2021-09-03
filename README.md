@@ -16,14 +16,14 @@
 - Mac
     - ✔ Chrome v59
     - ✔ Firefox v54
-    - ✖ Safari v10 &mdash; カラー入力に対応していない
+    - ✖ Safari v10 &mdash; カラー入力に対応していない (2017/8現在)
 - Windows
-    - ⚠ Edge HTML v14 &mdash; インタラクティブでない
-    - ⚠ Chrome v59 &mdash; インタラクティブでない
+    - ✔ Edge HTML v92
+    - ✔ Chrome v92
     - ✔ Firefox v54
 - Ubuntu
     - ✔ Firefox v54
 - iPhone
-    - ✖ カラー入力に対応していない
+    - ✖ カラー入力に対応していない (2017/8現在)
 - Android
-    - ✖ カラー入力に対応していない
+    - ✖ カラー入力に対応していない (2017/8現在)

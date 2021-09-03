@@ -1,12 +1,6 @@
 {
-  "name": "Color Name",
-  "short_name": "ColorName",
+  "name": "色の名は。",
   "icons": [
-    {
-      "src": "./img/color-name-icon-60x60.png",
-      "sizes": "60x60",
-      "type": "image/png"
-    },
     {
       "src": "./img/color-name-icon-192x192.png",
       "sizes": "192x192",

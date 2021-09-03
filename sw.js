@@ -24,7 +24,7 @@ self.addEventListener('fetch', function(event) {
         caches
             .match(event.request)
             .then(function(response) {
-                return response ? response : fetch(event.request);
+                return response || fetch(event.request);
             })
     );
 });

@@ -1,0 +1,15 @@
+{
+  "name": "Color Name",
+  "short_name": "ColorName",
+  "icons": [
+    {
+      "src": "./img/color-name-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4e342e"
+}

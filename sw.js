@@ -1,4 +1,4 @@
-// Service Worker
+// PWA対応：Service Worker
 
 var CACHE_NAME = 'color-name';
 var urlsToCache = [

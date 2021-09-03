@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>色の名は。</title>
+    <meta name="description" content="まだ会ったことのない色を、探しているあなたのために。選択した色に最も近い色のトップ10の色の名前を表示します。" />
     <link rel="stylesheet" href="css/normalize.css" charset="utf-8">
     <link rel="stylesheet" href="css/common.css" charset="utf-8">
     <link rel="manifest" href="manifest.json"/>
@@ -24,6 +27,7 @@
       <div id="nearestColors"></div>
     </div>
     <script>
+      // PWA対応
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
           navigator.serviceWorker.register('/color-name/sw.js').then(function(registration) {
